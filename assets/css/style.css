@@ -1,0 +1,161 @@
+body{
+    background-image:url("../../assets/images/Background 2.jpg");
+   
+    
+
+
+}
+.topScreen{
+    border: 2px solid gray;
+    background: white;
+    padding: 1px;
+    font-family: 'Georgia', Times, 'Times New Roman', Times, serif;
+}
+.container{
+    margin: 0 auto;
+}
+.indexHead{
+    width: 250px;
+    border: 2px solid gray;
+    background: rgb(0, 0, 0);
+    color: white;
+    margin-left: 120px;
+    text-align: center;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    float: left;
+}
+.nav1{
+    float: right;
+    margin-right: 150px;
+}
+.about{
+    background: white;
+    float: left;
+    border: 2px color gray;
+    padding: 10px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+
+}
+.portfolio{
+    background: white;
+    float: left;
+    border: 2px color gray;
+    padding: 10px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    
+}
+.contact{
+    background: white;
+    float: left;
+    border: 2px color gray;
+    padding: 10px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+.container{
+    width: 650px;
+    background: white;
+    padding: 10px;
+    margin: 10px;
+    margin-left: 120px;
+    border: 2px color gray;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    float: left;
+    
+    
+}
+.contactMe{
+    width: 270px;
+    background: white;
+    border: 2px color gray;
+    padding: 10px;
+    margin-top: 10px;
+    margin-right: 150px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    float: right;
+}
+.bottomScreen{
+    
+    height: 50px;
+    border: 2px solid gray;
+    background: white;
+    padding: 10px;
+    margin: 0 auto;
+    position: fixed; 
+    bottom: 0; 
+    left: 0; 
+    right: 0; 
+    height: 10px;
+    text-align: center;
+}
+#message{
+    width: 580px;
+    height: 300px;
+
+}
+.portfolioPic{
+    background: white;
+    border: 2px solid gray;
+    padding: 10px;
+    margin: 10px;
+    float: left;
+}
+.head:after{
+    clear: both;
+    display: block;
+    content: ""; 
+    
+}
+.picTitle {
+    border: 2px solid gray;
+    background: gray;
+    padding: 10px;
+    margin: 0 auto;;
+    width: 250px;
+   
+
+}
+@media screen and (max-width: 980px) {
+
+    .container  {
+        max-width: 425px;
+        margin-left: 15px;
+    }
+    #message{
+        width: 400px;
+        height: 250px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .container {
+        max-width: 750px;
+        margin: 29px;
+    }
+    .contactMe{
+        margin-right: 247px;
+        margin-bottom: 50px;
+        
+    }
+    .nav1{
+        margin-right: 100px;
+    }
+    #message{
+        width: 550px;
+        height: 200px;
+    }
+}
+@media screen and (max-width:  640px) {
+    .nav1{
+        margin-right: 194px;
+    }
+    .indexHead{
+        margin-left:187px ;
+    }
+    .container{
+        max-width: 500px;
+        margin: 50px
+
+    }
+    #message{
+        width: 400px;
+        height: 200px;
+}
